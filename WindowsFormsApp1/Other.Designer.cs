@@ -72,6 +72,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.o_8_low = new System.Windows.Forms.CheckedListBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.o_9_6 = new System.Windows.Forms.CheckedListBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.o_9_5 = new System.Windows.Forms.CheckedListBox();
@@ -84,7 +85,7 @@
             this.o_9_3 = new System.Windows.Forms.TextBox();
             this.o_9_2 = new System.Windows.Forms.TextBox();
             this.o_9_1 = new System.Windows.Forms.TextBox();
-            this.o_9_6 = new System.Windows.Forms.CheckedListBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.info3)).BeginInit();
@@ -105,7 +106,7 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Location = new System.Drawing.Point(33, 12);
+            this.tabControl1.Location = new System.Drawing.Point(31, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1041, 607);
@@ -1071,6 +1072,14 @@
             this.tabPage7.Text = "Итоги";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // o_9_6
+            // 
+            this.o_9_6.FormattingEnabled = true;
+            this.o_9_6.Location = new System.Drawing.Point(499, 60);
+            this.o_9_6.Name = "o_9_6";
+            this.o_9_6.Size = new System.Drawing.Size(491, 94);
+            this.o_9_6.TabIndex = 13;
+            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -1177,22 +1186,35 @@
             this.o_9_1.Size = new System.Drawing.Size(100, 20);
             this.o_9_1.TabIndex = 0;
             // 
-            // o_9_6
+            // button2
             // 
-            this.o_9_6.FormattingEnabled = true;
-            this.o_9_6.Location = new System.Drawing.Point(499, 60);
-            this.o_9_6.Name = "o_9_6";
-            this.o_9_6.Size = new System.Drawing.Size(491, 94);
-            this.o_9_6.TabIndex = 13;
+            this.button2.BackColor = System.Drawing.Color.Gainsboro;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.button2.Location = new System.Drawing.Point(1133, 1);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(35, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "X";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
+            this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             // 
             // Other
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1169, 655);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Other";
             this.Text = "Other";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Other_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Other_MouseMove);
             this.tabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
@@ -1272,5 +1294,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.CheckedListBox o_9_6;
+        private System.Windows.Forms.Button button2;
     }
 }
