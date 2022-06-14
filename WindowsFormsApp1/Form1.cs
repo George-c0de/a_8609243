@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
@@ -74,10 +74,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_3.Text) == 0)
             {
                 low++;
@@ -86,10 +87,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_4.Text) == 0)
             {
                 low++;
@@ -98,10 +100,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_5.Text) == 0)
             {
                 low++;
@@ -110,10 +113,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_6.Text) == 0)
             {
                 low++;
@@ -122,7 +126,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
@@ -135,7 +139,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
@@ -148,10 +152,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_16.Text) == 0)
             {
                 low++;
@@ -160,10 +165,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_10.Text) == 0)
             {
                 low++;
@@ -172,10 +178,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_7.Text) == 0)
             {
                 low++;
@@ -184,10 +191,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if (lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_11.Text) == 0)
             {
                 low++;
@@ -196,10 +204,11 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if(lah(o_5_9.Text) == 2)
             {
                 high++;
             }
+
             if (lah(o_5_9.Text) == 0)
             {
                 low++;
@@ -208,23 +217,26 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else
+            else if(lah(o_5_9.Text) == 2)
             {
                 high++;
             }
 
             if (high > 0)
             {
+                textBox14.Text = "1 категория";
                 textBox13.Text = "высокий";
                 o_8_high.Visible = true;
             }
             else if (average > 0)
             {
+                textBox14.Text = "2 категория";
                 textBox13.Text = "средний";
                 o_8_average.Visible = true;
             }
             else
             {
+                textBox14.Text = "3 категория";
                 textBox13.Text = "низкий";
                 o_8_low.Visible = true;
             }
@@ -240,9 +252,13 @@ namespace WindowsFormsApp1
             {
                 return 1;
             }
-            else
+            else if(a =="высокий")
             {
                 return 2;
+            }
+            else
+            {
+                return -1;
             }
         }
 
@@ -252,7 +268,7 @@ namespace WindowsFormsApp1
 
             o_9_2.Text = listBox1.Items[listBox1.SelectedIndex].ToString();
             //o_9_3.Text = 
-            o_9_3_1.Text = textBox13.Text;
+            o_9_3_1.Text = textBox14.Text;
             foreach (var el in o_6_1.CheckedItems)
             {
                 o_9_4.Items.Add(el);
@@ -267,17 +283,26 @@ namespace WindowsFormsApp1
                 o_9_5.Items.Add(el);
             }
 
-            foreach (var el in o_8_high.CheckedItems)
+            for (int i = 0; i < o_8_high.Items.Count; i++)
             {
-                o_9_6.Items.Add(el);
+                if (!o_8_high.GetItemChecked(i))
+                {
+                    o_9_6.Items.Add(o_8_high.Items[i], CheckState.Indeterminate);
+                }
             }
-            foreach (var el in o_8_average.CheckedItems)
+            for (int i = 0; i < o_8_average.Items.Count; i++)
             {
-                o_9_6.Items.Add(el);
+                if (!o_8_high.GetItemChecked(i))
+                {
+                    o_9_6.Items.Add(o_8_high.Items[i], CheckState.Indeterminate);
+                }
             }
-            foreach (var el in o_8_low.CheckedItems)
+            for (int i = 0; i < o_8_low.Items.Count; i++)
             {
-                o_9_6.Items.Add(el);
+                if (!o_8_high.GetItemChecked(i))
+                {
+                    o_9_6.Items.Add(o_8_high.Items[i], CheckState.Indeterminate);
+                }
             }
             button1.Enabled = false;
         }

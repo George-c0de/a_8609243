@@ -121,7 +121,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1033, 581);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Потенциальные нарушители безопасности ";
+            this.tabPage3.Text = "Потенциальные нарушители";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // info3
@@ -574,8 +574,8 @@
             "26- угроза несанкционированного удаления конфигурационных файлов;",
             "27- угроза блокирования передаваемых управляющих команд;",
             "28- угроза несанкционированной модификации системного ПО;",
-            "29- угроза несанкционированной модификации виртуальной инфраструктуры; 30- угроза" +
-                " занятия вычислительных ресурсов системы;  "});
+            "29- угроза несанкционированной модификации виртуальной инфраструктуры; ",
+            "30- угроза занятия вычислительных ресурсов системы;  "});
             this.o_7.Location = new System.Drawing.Point(46, 70);
             this.o_7.Name = "o_7";
             this.o_7.Size = new System.Drawing.Size(981, 469);
@@ -1100,7 +1100,6 @@
             // 
             // o_9_5
             // 
-            this.o_9_5.Enabled = false;
             this.o_9_5.FormattingEnabled = true;
             this.o_9_5.Location = new System.Drawing.Point(59, 329);
             this.o_9_5.Name = "o_9_5";
@@ -1145,7 +1144,6 @@
             // 
             // o_9_4
             // 
-            this.o_9_4.Enabled = false;
             this.o_9_4.FormattingEnabled = true;
             this.o_9_4.Location = new System.Drawing.Point(59, 206);
             this.o_9_4.Name = "o_9_4";

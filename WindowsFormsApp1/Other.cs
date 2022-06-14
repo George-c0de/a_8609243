@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
                 {
                     o_4_3.SelectedItem = "низкая";
                 }
-                else if (a == "межмуниципального характера" || a == "регионального характера ")
+                else if (a == "межмуниципального характера" || a == "регионального характера")
                 {
                     o_4_3.SelectedItem = "средняя";
                 }
@@ -153,7 +153,7 @@ namespace WindowsFormsApp1
                 {
                     o_4_2_3.SelectedItem = "низкая";
                 }
-                else if (a == "межмуниципального характера" || a == "регионального характера ")
+                else if (a == "межмуниципального характера" || a == "регионального характера")
                 {
                     o_4_2_3.SelectedItem = "средняя";
                 }
@@ -174,7 +174,7 @@ namespace WindowsFormsApp1
                 {
                     o_4_3_3.SelectedItem = "низкая";
                 }
-                else if (a == "межмуниципального характера" || a == "регионального характера ")
+                else if (a == "межмуниципального характера" || a == "регионального характера")
                 {
                     o_4_3_3.SelectedItem = "средняя";
                 }
@@ -202,7 +202,7 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    low++;
+                    high++;
                 }
 
             }
@@ -252,7 +252,7 @@ namespace WindowsFormsApp1
                 o_9_4.Items.Add("Не были выбраны потенциальные нарушители");
             }
 
-            if (o_5.Text == "высокий")
+            if (o_5.Text == "1 класс")
             {
                 if (o_8_high.CheckedItems.Count != 0)
                 {
@@ -270,22 +270,12 @@ namespace WindowsFormsApp1
                     }
                 }
             }
-            else if(o_5.Text == "средний")
+            else if(o_5.Text == "2 класс")
             {
-                if (o_8_average.CheckedItems.Count != 0)
-                {
-                    foreach (var el in o_7.CheckedItems)
-                    {
-                        o_9_5.Items.Add(el);
-                    }
-                }
-                for (int i = 0; i < o_8_average.Items.Count; i++)
-                {
-                    if (!o_8_average.GetItemChecked(i))
-                    {
-                        o_9_6.Items.Add(o_8_average.Items[i],CheckState.Indeterminate);
-                    }
-                }
+                o_9_5.Visible = false;
+                label21.Visible = false;
+                label22.Visible = false;
+                o_9_6.Visible = false;
             }
             else
             {

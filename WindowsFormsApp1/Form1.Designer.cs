@@ -32,6 +32,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
@@ -44,6 +45,13 @@
             this.label11 = new System.Windows.Forms.Label();
             this.o_7 = new System.Windows.Forms.CheckedListBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.button_o_7 = new System.Windows.Forms.Button();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.o_5_16 = new System.Windows.Forms.ListBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.o_5_12 = new System.Windows.Forms.ListBox();
             this.label28 = new System.Windows.Forms.Label();
@@ -93,34 +101,27 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.o_5_16 = new System.Windows.Forms.ListBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.button_o_7 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
             this.o_8_high = new System.Windows.Forms.CheckedListBox();
             this.o_8_average = new System.Windows.Forms.CheckedListBox();
             this.label31 = new System.Windows.Forms.Label();
             this.o_8_low = new System.Windows.Forms.CheckedListBox();
-            this.o_9_1 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.o_9_2 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.o_9_3 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.o_9_3_1 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.o_9_4 = new System.Windows.Forms.CheckedListBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.o_9_5 = new System.Windows.Forms.CheckedListBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.label40 = new System.Windows.Forms.Label();
             this.o_9_6 = new System.Windows.Forms.CheckedListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.o_9_5 = new System.Windows.Forms.CheckedListBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.o_9_4 = new System.Windows.Forms.CheckedListBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.o_9_3_1 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.o_9_3 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.o_9_2 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.o_9_1 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -170,6 +171,32 @@
             this.radioButton14.Text = "Другое ";
             this.radioButton14.UseVisualStyleBackColor = true;
             this.radioButton14.CheckedChanged += new System.EventHandler(this.radioButton14_CheckedChanged);
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 18;
+            this.listBox1.Items.AddRange(new object[] {
+            "здравоохранение ",
+            "наука",
+            "транспорт",
+            "связь",
+            "энергетика",
+            "банковская сфера и иные финансовые сферы",
+            "топливно-энергетический комплекс",
+            "область атомной энергии",
+            "оборонная промышленность",
+            "ракетно-космическая промышленность",
+            "горнодобывающая промышленность",
+            "металлургическая промышленность",
+            "химическая промышленность",
+            "юридически лица и/или ИП, которые обеспечивают взаимодействие указанных систем ил" +
+                "и сетей."});
+            this.listBox1.Location = new System.Drawing.Point(77, 84);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(714, 256);
+            this.listBox1.TabIndex = 38;
             // 
             // label2
             // 
@@ -271,7 +298,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(1397, 609);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Классификация АСУ ТП";
+            this.tabPage4.Text = "Угрозы безопасности";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -333,6 +360,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.textBox14);
             this.tabPage1.Controls.Add(this.label30);
             this.tabPage1.Controls.Add(this.textBox13);
             this.tabPage1.Controls.Add(this.button_o_7);
@@ -395,6 +423,74 @@
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "Категорирование КИИ";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(1096, 95);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(86, 13);
+            this.label30.TabIndex = 98;
+            this.label30.Text = "Категория КИИ";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Enabled = false;
+            this.textBox13.Location = new System.Drawing.Point(1099, 142);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(100, 20);
+            this.textBox13.TabIndex = 97;
+            this.textBox13.Visible = false;
+            // 
+            // button_o_7
+            // 
+            this.button_o_7.Location = new System.Drawing.Point(1099, 30);
+            this.button_o_7.Name = "button_o_7";
+            this.button_o_7.Size = new System.Drawing.Size(135, 53);
+            this.button_o_7.TabIndex = 96;
+            this.button_o_7.Text = "Сохранить";
+            this.button_o_7.UseVisualStyleBackColor = true;
+            this.button_o_7.Click += new System.EventHandler(this.button_o_7_Click);
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(550, 30);
+            this.textBox16.Multiline = true;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.ReadOnly = true;
+            this.textBox16.Size = new System.Drawing.Size(120, 106);
+            this.textBox16.TabIndex = 95;
+            this.textBox16.Text = "Прекращение или нарушение функционирования информационной системы в ";
+            // 
+            // o_5_16
+            // 
+            this.o_5_16.FormattingEnabled = true;
+            this.o_5_16.Items.AddRange(new object[] {
+            "низкий",
+            "средний",
+            "высокий"});
+            this.o_5_16.Location = new System.Drawing.Point(679, 28);
+            this.o_5_16.Name = "o_5_16";
+            this.o_5_16.Size = new System.Drawing.Size(120, 108);
+            this.o_5_16.TabIndex = 94;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(676, 14);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(45, 13);
+            this.label36.TabIndex = 93;
+            this.label36.Text = "Оценка";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(547, 14);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(68, 13);
+            this.label37.TabIndex = 92;
+            this.label37.Text = "Показатель";
             // 
             // textBox12
             // 
@@ -895,98 +991,6 @@
             this.tabPage5.Text = "Средства защиты безопасности ";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.button1);
-            this.tabPage6.Controls.Add(this.label40);
-            this.tabPage6.Controls.Add(this.o_9_6);
-            this.tabPage6.Controls.Add(this.label39);
-            this.tabPage6.Controls.Add(this.o_9_5);
-            this.tabPage6.Controls.Add(this.label38);
-            this.tabPage6.Controls.Add(this.o_9_4);
-            this.tabPage6.Controls.Add(this.label35);
-            this.tabPage6.Controls.Add(this.o_9_3_1);
-            this.tabPage6.Controls.Add(this.label34);
-            this.tabPage6.Controls.Add(this.o_9_3);
-            this.tabPage6.Controls.Add(this.label33);
-            this.tabPage6.Controls.Add(this.o_9_2);
-            this.tabPage6.Controls.Add(this.label32);
-            this.tabPage6.Controls.Add(this.o_9_1);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1397, 609);
-            this.tabPage6.TabIndex = 6;
-            this.tabPage6.Text = "Итог";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(550, 30);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(120, 106);
-            this.textBox16.TabIndex = 95;
-            this.textBox16.Text = "Прекращение или нарушение функционирования информационной системы в ";
-            // 
-            // o_5_16
-            // 
-            this.o_5_16.FormattingEnabled = true;
-            this.o_5_16.Items.AddRange(new object[] {
-            "низкий",
-            "средний",
-            "высокий"});
-            this.o_5_16.Location = new System.Drawing.Point(679, 28);
-            this.o_5_16.Name = "o_5_16";
-            this.o_5_16.Size = new System.Drawing.Size(120, 108);
-            this.o_5_16.TabIndex = 94;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(676, 14);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(45, 13);
-            this.label36.TabIndex = 93;
-            this.label36.Text = "Оценка";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(547, 14);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(68, 13);
-            this.label37.TabIndex = 92;
-            this.label37.Text = "Показатель";
-            // 
-            // button_o_7
-            // 
-            this.button_o_7.Location = new System.Drawing.Point(1099, 30);
-            this.button_o_7.Name = "button_o_7";
-            this.button_o_7.Size = new System.Drawing.Size(135, 53);
-            this.button_o_7.TabIndex = 96;
-            this.button_o_7.Text = "Сохранить";
-            this.button_o_7.UseVisualStyleBackColor = true;
-            this.button_o_7.Click += new System.EventHandler(this.button_o_7_Click);
-            // 
-            // textBox13
-            // 
-            this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(1099, 111);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 97;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(1096, 95);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(86, 13);
-            this.label30.TabIndex = 98;
-            this.label30.Text = "Категория КИИ";
-            // 
             // o_8_high
             // 
             this.o_8_high.FormattingEnabled = true;
@@ -1441,56 +1445,91 @@
             this.o_8_low.TabIndex = 9;
             this.o_8_low.Visible = false;
             // 
-            // o_9_1
+            // tabPage6
             // 
-            this.o_9_1.Enabled = false;
-            this.o_9_1.Location = new System.Drawing.Point(64, 55);
-            this.o_9_1.Name = "o_9_1";
-            this.o_9_1.Size = new System.Drawing.Size(100, 20);
-            this.o_9_1.TabIndex = 0;
+            this.tabPage6.Controls.Add(this.button1);
+            this.tabPage6.Controls.Add(this.label40);
+            this.tabPage6.Controls.Add(this.o_9_6);
+            this.tabPage6.Controls.Add(this.label39);
+            this.tabPage6.Controls.Add(this.o_9_5);
+            this.tabPage6.Controls.Add(this.label38);
+            this.tabPage6.Controls.Add(this.o_9_4);
+            this.tabPage6.Controls.Add(this.label35);
+            this.tabPage6.Controls.Add(this.o_9_3_1);
+            this.tabPage6.Controls.Add(this.label34);
+            this.tabPage6.Controls.Add(this.o_9_3);
+            this.tabPage6.Controls.Add(this.label33);
+            this.tabPage6.Controls.Add(this.o_9_2);
+            this.tabPage6.Controls.Add(this.label32);
+            this.tabPage6.Controls.Add(this.o_9_1);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1397, 609);
+            this.tabPage6.TabIndex = 6;
+            this.tabPage6.Text = "Итог";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // label32
+            // button1
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(61, 39);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(125, 13);
-            this.label32.TabIndex = 1;
-            this.label32.Text = "Название организации";
+            this.button1.Location = new System.Drawing.Point(75, 375);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 36);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Обновить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label33
+            // label40
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(61, 89);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(113, 13);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "Сфера деятельности";
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(306, 336);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(376, 13);
+            this.label40.TabIndex = 13;
+            this.label40.Text = "Меры по обеспечению безопасности, которые необходимо реализовать";
             // 
-            // o_9_2
+            // o_9_6
             // 
-            this.o_9_2.Enabled = false;
-            this.o_9_2.Location = new System.Drawing.Point(64, 105);
-            this.o_9_2.Name = "o_9_2";
-            this.o_9_2.Size = new System.Drawing.Size(100, 20);
-            this.o_9_2.TabIndex = 2;
+            this.o_9_6.FormattingEnabled = true;
+            this.o_9_6.Location = new System.Drawing.Point(306, 357);
+            this.o_9_6.Name = "o_9_6";
+            this.o_9_6.Size = new System.Drawing.Size(424, 94);
+            this.o_9_6.TabIndex = 12;
             // 
-            // label34
+            // label39
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(61, 138);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(74, 13);
-            this.label34.TabIndex = 5;
-            this.label34.Text = "Тип объекта ";
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(306, 185);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(184, 13);
+            this.label39.TabIndex = 11;
+            this.label39.Text = "Актуальные угрозы безопасности ";
             // 
-            // o_9_3
+            // o_9_5
             // 
-            this.o_9_3.Enabled = false;
-            this.o_9_3.Location = new System.Drawing.Point(64, 154);
-            this.o_9_3.Name = "o_9_3";
-            this.o_9_3.Size = new System.Drawing.Size(100, 20);
-            this.o_9_3.TabIndex = 4;
+            this.o_9_5.FormattingEnabled = true;
+            this.o_9_5.Location = new System.Drawing.Point(306, 206);
+            this.o_9_5.Name = "o_9_5";
+            this.o_9_5.Size = new System.Drawing.Size(424, 94);
+            this.o_9_5.TabIndex = 10;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(303, 39);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(151, 13);
+            this.label38.TabIndex = 9;
+            this.label38.Text = "Потенциальные нарушители";
+            // 
+            // o_9_4
+            // 
+            this.o_9_4.FormattingEnabled = true;
+            this.o_9_4.Location = new System.Drawing.Point(306, 60);
+            this.o_9_4.Name = "o_9_4";
+            this.o_9_4.Size = new System.Drawing.Size(424, 94);
+            this.o_9_4.TabIndex = 8;
             // 
             // label35
             // 
@@ -1509,95 +1548,64 @@
             this.o_9_3_1.Size = new System.Drawing.Size(100, 20);
             this.o_9_3_1.TabIndex = 6;
             // 
-            // label38
+            // label34
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(61, 240);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(151, 13);
-            this.label38.TabIndex = 9;
-            this.label38.Text = "Потенциальные нарушители";
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(61, 138);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(74, 13);
+            this.label34.TabIndex = 5;
+            this.label34.Text = "Тип объекта ";
             // 
-            // o_9_4
+            // o_9_3
             // 
-            this.o_9_4.Enabled = false;
-            this.o_9_4.FormattingEnabled = true;
-            this.o_9_4.Location = new System.Drawing.Point(61, 261);
-            this.o_9_4.Name = "o_9_4";
-            this.o_9_4.Size = new System.Drawing.Size(322, 94);
-            this.o_9_4.TabIndex = 8;
+            this.o_9_3.Enabled = false;
+            this.o_9_3.Location = new System.Drawing.Point(64, 154);
+            this.o_9_3.Name = "o_9_3";
+            this.o_9_3.Size = new System.Drawing.Size(100, 20);
+            this.o_9_3.TabIndex = 4;
             // 
-            // label39
+            // label33
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(61, 374);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(184, 13);
-            this.label39.TabIndex = 11;
-            this.label39.Text = "Актуальные угрозы безопасности ";
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(61, 89);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(113, 13);
+            this.label33.TabIndex = 3;
+            this.label33.Text = "Сфера деятельности";
             // 
-            // o_9_5
+            // o_9_2
             // 
-            this.o_9_5.Enabled = false;
-            this.o_9_5.FormattingEnabled = true;
-            this.o_9_5.Location = new System.Drawing.Point(61, 395);
-            this.o_9_5.Name = "o_9_5";
-            this.o_9_5.Size = new System.Drawing.Size(322, 94);
-            this.o_9_5.TabIndex = 10;
+            this.o_9_2.Enabled = false;
+            this.o_9_2.Location = new System.Drawing.Point(64, 105);
+            this.o_9_2.Name = "o_9_2";
+            this.o_9_2.Size = new System.Drawing.Size(100, 20);
+            this.o_9_2.TabIndex = 2;
             // 
-            // label40
+            // label32
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(529, 39);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(376, 13);
-            this.label40.TabIndex = 13;
-            this.label40.Text = "Меры по обеспечению безопасности, которые необходимо реализовать";
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(61, 39);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(125, 13);
+            this.label32.TabIndex = 1;
+            this.label32.Text = "Название организации";
             // 
-            // o_9_6
+            // o_9_1
             // 
-            this.o_9_6.Enabled = false;
-            this.o_9_6.FormattingEnabled = true;
-            this.o_9_6.Location = new System.Drawing.Point(529, 60);
-            this.o_9_6.Name = "o_9_6";
-            this.o_9_6.Size = new System.Drawing.Size(322, 94);
-            this.o_9_6.TabIndex = 12;
+            this.o_9_1.Enabled = false;
+            this.o_9_1.Location = new System.Drawing.Point(64, 55);
+            this.o_9_1.Name = "o_9_1";
+            this.o_9_1.Size = new System.Drawing.Size(100, 20);
+            this.o_9_1.TabIndex = 0;
             // 
-            // button1
+            // textBox14
             // 
-            this.button1.Location = new System.Drawing.Point(617, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 36);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Обновить";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 18;
-            this.listBox1.Items.AddRange(new object[] {
-            "здравоохранение ",
-            "наука",
-            "транспорт",
-            "связь",
-            "энергетика",
-            "банковская сфера и иные финансовые сферы",
-            "топливно-энергетический комплекс",
-            "область атомной энергии",
-            "оборонная промышленность",
-            "ракетно-космическая промышленность",
-            "горнодобывающая промышленность",
-            "металлургическая промышленность",
-            "химическая промышленность",
-            "юридически лица и/или ИП, которые обеспечивают взаимодействие указанных систем ил" +
-                "и сетей."});
-            this.listBox1.Location = new System.Drawing.Point(77, 84);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(714, 256);
-            this.listBox1.TabIndex = 38;
+            this.textBox14.Enabled = false;
+            this.textBox14.Location = new System.Drawing.Point(1099, 116);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(100, 20);
+            this.textBox14.TabIndex = 99;
             // 
             // Form1
             // 
@@ -1718,6 +1726,7 @@
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.CheckedListBox o_9_4;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox14;
     }
 }
 
