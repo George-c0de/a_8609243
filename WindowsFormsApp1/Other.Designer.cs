@@ -1175,6 +1175,7 @@
             this.o_9_2.Name = "o_9_2";
             this.o_9_2.Size = new System.Drawing.Size(100, 20);
             this.o_9_2.TabIndex = 1;
+            this.o_9_2.Text = " АСУ ТП";
             // 
             // o_9_1
             // 

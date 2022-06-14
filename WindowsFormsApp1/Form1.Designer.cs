@@ -1564,6 +1564,7 @@
             this.o_9_3.Name = "o_9_3";
             this.o_9_3.Size = new System.Drawing.Size(100, 20);
             this.o_9_3.TabIndex = 4;
+            this.o_9_3.Text = "КИИ";
             // 
             // label33
             // 
