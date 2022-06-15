@@ -121,7 +121,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1033, 581);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Потенциальные нарушители";
+            this.tabPage3.Text = "Виды информации";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // info3

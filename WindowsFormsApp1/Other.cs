@@ -272,10 +272,21 @@ namespace WindowsFormsApp1
             }
             else if(o_5.Text == "2 класс")
             {
-                o_9_5.Visible = false;
-                label21.Visible = false;
-                label22.Visible = false;
-                o_9_6.Visible = false;
+                if (o_8_average.CheckedItems.Count != 0)
+                {
+                    foreach (var el in o_7.CheckedItems)
+                    {
+                        o_9_5.Items.Add(el);
+                    }
+                }
+
+                for (int i = 0; i < o_8_average.Items.Count; i++)
+                {
+                    if (!o_8_average.GetItemChecked(i))
+                    {
+                        o_9_6.Items.Add(o_8_average.Items[i], CheckState.Indeterminate);
+                    }
+                }
             }
             else
             {

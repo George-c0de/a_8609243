@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_1.Text) == 2)
             {
                 high++;
             }
@@ -74,7 +74,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_2.Text) == 2)
             {
                 high++;
             }
@@ -87,7 +87,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_3.Text) == 2)
             {
                 high++;
             }
@@ -100,7 +100,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_4.Text) == 2)
             {
                 high++;
             }
@@ -113,7 +113,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_5.Text) == 2)
             {
                 high++;
             }
@@ -126,7 +126,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_6.Text) == 2)
             {
                 high++;
             }
@@ -139,7 +139,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_12.Text) == 2)
             {
                 high++;
             }
@@ -152,7 +152,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_8.Text) == 2)
             {
                 high++;
             }
@@ -165,7 +165,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_16.Text) == 2)
             {
                 high++;
             }
@@ -178,7 +178,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_10.Text) == 2)
             {
                 high++;
             }
@@ -191,7 +191,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if (lah(o_5_9.Text) == 2)
+            else if (lah(o_5_7.Text) == 2)
             {
                 high++;
             }
@@ -204,7 +204,7 @@ namespace WindowsFormsApp1
             {
                 average++;
             }
-            else if(lah(o_5_9.Text) == 2)
+            else if(lah(o_5_11.Text) == 2)
             {
                 high++;
             }

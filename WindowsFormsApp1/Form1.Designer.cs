@@ -45,6 +45,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.o_7 = new System.Windows.Forms.CheckedListBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.button_o_7 = new System.Windows.Forms.Button();
@@ -121,7 +122,6 @@
             this.o_9_2 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.o_9_1 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -157,7 +157,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1397, 609);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Окно 2";
+            this.tabPage2.Text = "Начало";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // radioButton14
@@ -423,6 +423,14 @@
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "Категорирование КИИ";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Enabled = false;
+            this.textBox14.Location = new System.Drawing.Point(1099, 116);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(100, 20);
+            this.textBox14.TabIndex = 99;
             // 
             // label30
             // 
@@ -1599,14 +1607,6 @@
             this.o_9_1.Name = "o_9_1";
             this.o_9_1.Size = new System.Drawing.Size(100, 20);
             this.o_9_1.TabIndex = 0;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(1099, 116);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 20);
-            this.textBox14.TabIndex = 99;
             // 
             // Form1
             // 
